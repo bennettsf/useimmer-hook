@@ -1,3 +1,13 @@
+Assignment to show how useImmer can effectively update the state of complex nested objects. 
+
+Rather than using spread syntax to access the element, we can access them from the draft object (in this example) by using ``draft.contactDetails.phone`` and ``draft.contactDetails.address``.
+
+![](https://i.imgur.com/UOJa4bU.gif)
+
+### Here's the object being updated in real-time:
+![](https://i.imgur.com/FnB04fN.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
