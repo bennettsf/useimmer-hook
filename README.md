@@ -1,4 +1,4 @@
-Assignment to show how useImmer can effectively update the state of complex nested objects. 
+Assignment to show how useImmer can effectively update the state of complex nested objects compared to useState. 
 
 Rather than using spread syntax to access the element, we can access them from the draft object (in this example) by using ``draft.contactDetails.phone`` and ``draft.contactDetails.address``.
 
